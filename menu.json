@@ -1,0 +1,189 @@
+[
+  {
+    "id": "dessert-cheesecake",
+    "category": "Desserts",
+    "sub_category": "Cakes",
+    "name": "Classic Cheesecake",
+    "short_description": "Rich & creamy NY-style cheesecake.",
+    "price": 5.5,
+    "currency": "USD",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": [
+      "Dairy",
+      "Gluten"
+    ],
+    "available": true,
+    "image_url": "menu-images/dessert-cheesecake.webp",
+    "highlight": true
+  },
+  {
+    "id": "drink-flatwhite",
+    "category": "Drinks",
+    "sub_category": "Espresso Based",
+    "name": "Flat White",
+    "short_description": "Smooth ristretto with velvety steamed milk.",
+    "price": 3.8,
+    "currency": "USD",
+    "tags": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "available": true,
+    "image_url": "menu-images/drink-flatwhite.webp"
+  },
+  {
+    "id": "drink-v60",
+    "category": "Drinks",
+    "sub_category": "Filter & Pour-Over",
+    "name": "V60 Pour-Over",
+    "short_description": "Clean cup highlighting fruity notes.",
+    "price": 4.5,
+    "currency": "USD",
+    "tags": [
+      "vegan",
+      "gluten-free"
+    ],
+    "allergens": [],
+    "available": true,
+    "image_url": "menu-images/drink-v60.webp"
+  },
+  {
+    "id": "drink-chemex",
+    "category": "Drinks",
+    "sub_category": "Filter & Pour-Over",
+    "name": "Chemex (2 cups)",
+    "short_description": "Bright, aromatic brew, perfect for sharing.",
+    "price": 6.5,
+    "currency": "USD",
+    "tags": [
+      "vegan",
+      "gluten-free"
+    ],
+    "allergens": [],
+    "available": true,
+    "image_url": "menu-images/drink-chemex.webp"
+  },
+  {
+    "id": "drink-coldbrew",
+    "category": "Drinks",
+    "sub_category": "Cold Coffee",
+    "name": "Cold Brew",
+    "short_description": "18-hour steep, smooth and low acidity.",
+    "price": 4,
+    "currency": "USD",
+    "tags": [
+      "vegan",
+      "gluten-free"
+    ],
+    "allergens": [],
+    "available": true,
+    "image_url": "menu-images/drink-coldbrew.webp"
+  },
+  {
+    "id": "drink-espressotonic",
+    "category": "Drinks",
+    "sub_category": "Cold Coffee",
+    "name": "Espresso Tonic",
+    "short_description": "Bright espresso over sparkling tonic.",
+    "price": 4.2,
+    "currency": "USD",
+    "tags": [
+      "vegan",
+      "gluten-free"
+    ],
+    "allergens": [],
+    "available": true,
+    "image_url": "menu-images/drink-espressotonic.webp"
+  },
+  {
+    "id": "drink-matcha",
+    "category": "Drinks",
+    "sub_category": "Tea & Alternatives",
+    "name": "Matcha Latte",
+    "short_description": "Ceremonial-grade matcha with steamed milk.",
+    "price": 4.8,
+    "currency": "USD",
+    "tags": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "available": true,
+    "image_url": "menu-images/drink-matcha.webp"
+  },
+  {
+    "id": "drink-earlgrey",
+    "category": "Drinks",
+    "sub_category": "Tea & Alternatives",
+    "name": "Earl Grey Tea",
+    "short_description": "Classic black tea with bergamot.",
+    "price": 3,
+    "currency": "USD",
+    "tags": [
+      "vegan",
+      "gluten-free"
+    ],
+    "allergens": [],
+    "available": true,
+    "image_url": "menu-images/drink-earlgrey.webp"
+  },
+  {
+    "id": "starter-turkeyavo",
+    "category": "Starters",
+    "sub_category": "Sandwiches",
+    "name": "Turkey Avocado Sandwich",
+    "short_description": "Wholegrain bread, roasted turkey, avocado, tomato.",
+    "price": 6.8,
+    "currency": "USD",
+    "tags": [
+      "contains-meat"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "available": true,
+    "image_url": "menu-images/starter-turkeyavo.webp"
+  },
+  {
+    "id": "starter-quinoa",
+    "category": "Starters",
+    "sub_category": "Salads & Bowls",
+    "name": "Quinoa Bowl",
+    "short_description": "Quinoa, roasted veggies, tahini dressing.",
+    "price": 7.2,
+    "currency": "USD",
+    "tags": [
+      "vegan",
+      "gluten-free"
+    ],
+    "allergens": [
+      "sesame"
+    ],
+    "available": true,
+    "image_url": "menu-images/starter-quinoa.webp"
+  },
+  {
+    "id": "starter-avotoast",
+    "category": "Starters",
+    "sub_category": "Toasts",
+    "name": "Avocado Toast",
+    "short_description": "Sourdough with smashed avocado, chili flakes, olive oil.",
+    "price": 5,
+    "currency": "USD",
+    "tags": [
+      "vegan"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "available": false,
+    "image_url": "menu-images/starter-avotoast.webp"
+  }
+]
