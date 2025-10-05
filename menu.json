@@ -1,189 +1,1634 @@
 [
   {
-    "id": "dessert-cheesecake",
+    "id": "tatlilar-albeni-cilek-frambuaz",
     "category": "Desserts",
-    "sub_category": "Cakes",
-    "name": "Classic Cheesecake",
-    "short_description": "Rich & creamy NY-style cheesecake.",
-    "price": 5.5,
-    "currency": "USD",
+    "sub_category": "Tatlılar",
+    "name": "Albeni Çilek Frambuaz",
+    "short_description": "Sütlü çikolata, çilek ve frambuazın dengeli uyumuyla hazırlanan yoğun bir tatlı.",
+    "price": 220,
+    "currency": "TL",
+    "allergens": [
+      "dairy",
+      "gluten"
+    ],
     "tags": [
+      "dessert",
+      "contains-dairy",
+      "contains-gluten",
+      "vegetarian"
+    ],
+    "available": true,
+    "image_url": ""
+  },
+  {
+    "id": "tatlilar-balli-cevizli-mardenka",
+    "category": "Desserts",
+    "sub_category": "Tatlılar",
+    "name": "Ballı Cevizli Mardenka",
+    "short_description": "Ballı katmanlar arasında ceviz parçalarıyla zenginleştirilmiş geleneksel bir tat.",
+    "price": 225,
+    "currency": "TL",
+    "allergens": [
+      "dairy",
+      "nuts",
+      "gluten"
+    ],
+    "tags": [
+      "dessert",
+      "contains-nuts",
+      "contains-dairy",
+      "contains-gluten",
+      "vegetarian"
+    ],
+    "available": true,
+    "image_url": "/menu-images/tatlilar-balli-cevizli-mardenka.webp"
+  },
+  {
+    "id": "tatlilar-bowl",
+    "category": "Desserts",
+    "sub_category": "Tatlılar",
+    "name": "Bowl",
+    "short_description": "Mevsim meyveleri, granola ve yoğurtla sunulan hafif, tazeleyici bir bowl.",
+    "price": 300,
+    "currency": "TL",
+    "allergens": [
+      "dairy",
+      "gluten",
+      "nuts"
+    ],
+    "tags": [
+      "dessert",
+      "vegetarian",
+      "contains-dairy",
+      "contains-gluten",
+      "contains-nuts"
+    ],
+    "available": true,
+    "image_url": "/menu-images/tatlilar-bowl.webp"
+  },
+  {
+    "id": "tatlilar-frenk-uzumlu-cheesecake",
+    "category": "Desserts",
+    "sub_category": "Tatlılar",
+    "name": "Frenk Üzümlü Cheesecake",
+    "short_description": "Frenk üzümü sosuyla ferahlatılmış kremsi cheesecake; kıtır tabanla dengelenir.",
+    "price": 175,
+    "currency": "TL",
+    "allergens": [
+      "dairy",
+      "eggs",
+      "gluten"
+    ],
+    "tags": [
+      "dessert",
+      "vegetarian",
+      "contains-dairy",
+      "contains-gluten"
+    ],
+    "available": true,
+    "image_url": "/menu-images/tatlilar-frenk-uzumlu-cheesecake.webp"
+  },
+  {
+    "id": "tatlilar-limonlu-cheesecake",
+    "category": "Desserts",
+    "sub_category": "Tatlılar",
+    "name": "Limonlu Cheesecake",
+    "short_description": "Hafif ekşi limon aromalı krema ve gevrek taban; klasik cheesecake yorumu.",
+    "price": 210,
+    "currency": "TL",
+    "allergens": [
+      "dairy",
+      "eggs",
+      "gluten"
+    ],
+    "tags": [
+      "dessert",
+      "vegetarian",
+      "contains-dairy",
+      "contains-gluten"
+    ],
+    "available": true,
+    "image_url": ""
+  },
+  {
+    "id": "tatlilar-lotus-cheesecake",
+    "category": "Desserts",
+    "sub_category": "Tatlılar",
+    "name": "Lotus Cheesecake",
+    "short_description": "Lotus bisküvisiyle hazırlanan yoğun aromalı cheesecake; karamelsi notaları ön planda sunan bir lezzet.",
+    "price": 210,
+    "currency": "TL",
+    "allergens": [
+      "dairy",
+      "eggs",
+      "gluten"
+    ],
+    "tags": [
+      "dessert",
+      "vegetarian",
+      "contains-dairy",
+      "contains-gluten"
+    ],
+    "available": true,
+    "image_url": ""
+  },
+  {
+    "id": "tatlilar-mono-bella",
+    "category": "Desserts",
+    "sub_category": "Tatlılar",
+    "name": "Mono Bella",
+    "short_description": "Kakaolu taban üzerinde fındık kremasıyla zenginleştirilmiş zarif porsiyonluk tatlı.",
+    "price": 220,
+    "currency": "TL",
+    "allergens": [
+      "dairy",
+      "nuts",
+      "gluten"
+    ],
+    "tags": [
+      "dessert",
+      "contains-nuts",
+      "contains-dairy",
+      "contains-gluten",
+      "vegetarian"
+    ],
+    "available": true,
+    "image_url": "/menu-images/tatlilar-mono-bella.webp"
+  },
+  {
+    "id": "tatlilar-mozaik-kek",
+    "category": "Desserts",
+    "sub_category": "Tatlılar",
+    "name": "Mozaik Kek",
+    "short_description": "Çikolata ve bisküvi parçalarıyla hazırlanan nostaljik, yoğun lezzetli mozaik kek.",
+    "price": 195,
+    "currency": "TL",
+    "allergens": [
+      "dairy",
+      "gluten"
+    ],
+    "tags": [
+      "dessert",
+      "contains-dairy",
+      "contains-gluten",
+      "vegetarian"
+    ],
+    "available": true,
+    "image_url": "/menu-images/tatlilar-mozaik-kek.webp"
+  },
+  {
+    "id": "tatlilar-profiterol",
+    "category": "Desserts",
+    "sub_category": "Tatlılar",
+    "name": "Profiterol",
+    "short_description": "İçi kremayla dolu hafif hamurlar; üzerine sıcak çikolata sosuyla servis edilir.",
+    "price": 220,
+    "currency": "TL",
+    "allergens": [
+      "dairy",
+      "eggs",
+      "gluten"
+    ],
+    "tags": [
+      "dessert",
+      "contains-dairy",
+      "contains-gluten",
+      "vegetarian"
+    ],
+    "available": true,
+    "image_url": "/menu-images/tatlilar-profiterol.webp"
+  },
+  {
+    "id": "tatlilar-cikolatali-cookie",
+    "category": "Desserts",
+    "sub_category": "Tatlılar",
+    "name": "Çikolatalı Cookie",
+    "short_description": "Dışı kıtır, içi yumuşak dokulu; bol çikolatalı klasik cookie.",
+    "price": 130,
+    "currency": "TL",
+    "allergens": [
+      "dairy",
+      "eggs",
+      "gluten"
+    ],
+    "tags": [
+      "dessert",
+      "bakery",
+      "contains-dairy",
+      "contains-gluten",
+      "vegetarian"
+    ],
+    "available": true,
+    "image_url": "/menu-images/tatlilar-cikolatali-cookie.webp"
+  },
+  {
+    "id": "bitki-caylari-adacayi",
+    "category": "Drinks",
+    "sub_category": "Bitki Çayları",
+    "name": "Bitki Çayı",
+    "short_description": "Seçenekler: Adaçayı, Hibiskus, Ihlamur, Kış Çayı, Papatya, Yeşil Çay",
+    "price": 175,
+    "currency": "TL",
+    "allergens": [],
+    "tags": [
+      "tea",
+      "hot",
+      "caffeine-free",
+      "vegan"
+    ],
+    "available": true,
+    "image_url": "/menu-images/bitki-caylari-adacayi.webp"
+  },
+  {
+    "id": "bitki-caylari-detoks-cayi",
+    "category": "Drinks",
+    "sub_category": "Bitki Çayları",
+    "name": "Detoks Çayı",
+    "short_description": "Zencefil, limon ve yeşil bitkilerle hazırlanan, vücudu arındırıcı karışım.",
+    "price": 185,
+    "currency": "TL",
+    "allergens": [],
+    "tags": [
+      "tea",
+      "hot",
+      "caffeine-free",
+      "vegan"
+    ],
+    "available": true,
+    "image_url": ""
+  },
+  {
+    "id": "matchalar-cacao-matcha",
+    "category": "Drinks",
+    "sub_category": "Matchalar",
+    "name": "Cacao Matcha",
+    "short_description": "Soğuk servis edilen kakao ve matcha karışımı; ferahlatıcı, yumuşak içimli bir alternatif.",
+    "currency": "TL",
+    "tags": [
+      "matcha",
+      "iced",
+      "caffeinated",
+      "contains-dairy",
       "vegetarian"
     ],
     "allergens": [
-      "Dairy",
-      "Gluten"
+      "dairy",
+      "caffeine"
     ],
-    "available": true,
-    "image_url": "menu-images/dessert-cheesecake.webp",
-    "highlight": true
+    "image_url": "",
+    "variants": [
+      {
+        "id": "sicak",
+        "label": "Sıcak",
+        "price": 225.0,
+        "available": true,
+        "short_description": "Zengin kakao ile harmanlanmış sıcak matcha; dengeli, hafif bitter bir tat sunar.",
+        "add_tags": [
+          "hot"
+        ],
+        "remove_tags": [
+          "iced"
+        ]
+      },
+      {
+        "id": "soguk",
+        "label": "Soğuk",
+        "price": 235.0,
+        "available": true,
+        "short_description": "Soğuk servis edilen kakao ve matcha karışımı; ferahlatıcı, yumuşak içimli bir alternatif."
+      }
+    ]
   },
   {
-    "id": "drink-flatwhite",
+    "id": "matchalar-dolche-matcha-vanilya-karamel",
     "category": "Drinks",
-    "sub_category": "Espresso Based",
-    "name": "Flat White",
-    "short_description": "Smooth ristretto with velvety steamed milk.",
-    "price": 3.8,
-    "currency": "USD",
+    "sub_category": "Matchalar",
+    "name": "Dolche Matcha (Vanilya + Karamel)",
+    "short_description": "Karamel ve vanilya lezzetleriyle birleşen soğuk matcha; tatlı, serinletici bir içim.",
+    "currency": "TL",
     "tags": [
-      "vegetarian",
-      "gluten-free"
+      "matcha",
+      "iced",
+      "caffeinated",
+      "contains-dairy",
+      "vegetarian"
     ],
+    "allergens": [
+      "dairy",
+      "caffeine"
+    ],
+    "image_url": "/menu-images/matchalar-dolche-matcha-vanilya-karamel-sicak.webp",
+    "variants": [
+      {
+        "id": "sicak",
+        "label": "Sıcak",
+        "price": 240.0,
+        "available": true,
+        "short_description": "Vanilya ve karamel aromalarıyla yumuşatılmış sıcak matcha; tatlı dengesiyle öne çıkar.",
+        "add_tags": [
+          "hot"
+        ],
+        "remove_tags": [
+          "iced"
+        ]
+      },
+      {
+        "id": "soguk",
+        "label": "Soğuk",
+        "price": 255.0,
+        "available": true,
+        "short_description": "Karamel ve vanilya lezzetleriyle birleşen soğuk matcha; tatlı, serinletici bir içim."
+      }
+    ]
+  },
+  {
+    "id": "matchalar-sade-matcha",
+    "category": "Drinks",
+    "sub_category": "Matchalar",
+    "name": "Sade Matcha",
+    "short_description": "Soğuk sütle karıştırılmış sade matcha; ferah ve dengeli bir tat.",
+    "currency": "TL",
+    "tags": [
+      "matcha",
+      "iced",
+      "caffeinated",
+      "contains-dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "dairy",
+      "caffeine"
+    ],
+    "image_url": "/menu-images/matchalar-sade-matcha-sicak.webp",
+    "variants": [
+      {
+        "id": "sicak",
+        "label": "Sıcak",
+        "price": 190.0,
+        "available": true,
+        "short_description": "Saf matcha tozu ve sütle hazırlanan sade, dengeli sıcak içim.",
+        "add_tags": [
+          "hot"
+        ],
+        "remove_tags": [
+          "iced"
+        ]
+      },
+      {
+        "id": "soguk",
+        "label": "Soğuk",
+        "price": 200.0,
+        "available": true,
+        "short_description": "Soğuk sütle karıştırılmış sade matcha; ferah ve dengeli bir tat."
+      }
+    ]
+  },
+  {
+    "id": "matchalar-strawberry-matcha",
+    "category": "Drinks",
+    "sub_category": "Matchalar",
+    "name": "Strawberry Matcha",
+    "short_description": "Taze çilek aromasıyla zenginleştirilmiş soğuk matcha; canlı ve ferahlatıcı.",
+    "currency": "TL",
+    "tags": [
+      "matcha",
+      "iced",
+      "caffeinated",
+      "contains-dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "dairy",
+      "caffeine"
+    ],
+    "image_url": "/menu-images/matchalar-strawberry-matcha-sicak.webp",
+    "variants": [
+      {
+        "id": "sicak",
+        "label": "Sıcak",
+        "price": 225.0,
+        "available": true,
+        "short_description": "Matcha ve çileğin hafif tatlı uyumu; sıcak servisle dengeli bir lezzet sunar.",
+        "add_tags": [
+          "hot"
+        ],
+        "remove_tags": [
+          "iced"
+        ]
+      },
+      {
+        "id": "soguk",
+        "label": "Soğuk",
+        "price": 235.0,
+        "available": true,
+        "short_description": "Taze çilek aromasıyla zenginleştirilmiş soğuk matcha; canlı ve ferahlatıcı."
+      }
+    ]
+  },
+  {
+    "id": "matchalar-vanilya-matcha",
+    "category": "Drinks",
+    "sub_category": "Matchalar",
+    "name": "Vanilya Matcha",
+    "short_description": "Soğuk sütle hazırlanan vanilya aromalı matcha; ferah, tatlı bir içim sunar.",
+    "currency": "TL",
+    "tags": [
+      "matcha",
+      "iced",
+      "caffeinated",
+      "contains-dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "dairy",
+      "caffeine"
+    ],
+    "image_url": "/menu-images/matchalar-vanilya-matcha-sicak.webp",
+    "variants": [
+      {
+        "id": "sicak",
+        "label": "Sıcak",
+        "price": 225.0,
+        "available": true,
+        "short_description": "Vanilya aromasıyla yumuşatılmış sıcak matcha; dengeli tatlılık ve kremamsı doku.",
+        "add_tags": [
+          "hot"
+        ],
+        "remove_tags": [
+          "iced"
+        ]
+      },
+      {
+        "id": "soguk",
+        "label": "Soğuk",
+        "price": 235.0,
+        "available": true,
+        "short_description": "Soğuk sütle hazırlanan vanilya aromalı matcha; ferah, tatlı bir içim sunar."
+      }
+    ]
+  },
+  {
+    "id": "soft-icecekler-chocolate-chip-frappucino",
+    "category": "Drinks",
+    "sub_category": "Soft İçecekler",
+    "name": "Chocolate Chip Frappucino",
+    "short_description": "Çikolata parçacıklarıyla zenginleştirilmiş, süt bazlı buzlu frappucino.",
+    "price": 195,
+    "currency": "TL",
+    "allergens": [
+      "dairy",
+      "soy"
+    ],
+    "tags": [
+      "soft-drink",
+      "iced",
+      "contains-dairy",
+      "vegetarian"
+    ],
+    "available": true,
+    "image_url": "/menu-images/soft-icecekler-chocolate-chip-frappucino.webp"
+  },
+  {
+    "id": "soft-icecekler-dolche-ice-tea",
+    "category": "Drinks",
+    "sub_category": "Soft İçecekler",
+    "name": "Dolche Ice Tea",
+    "short_description": "Ev yapımı demli çay bazlı, meyve aromalı buzlu içecek.",
+    "price": 195,
+    "currency": "TL",
+    "allergens": [
+      "caffeine"
+    ],
+    "tags": [
+      "soft-drink",
+      "iced",
+      "caffeinated",
+      "vegan"
+    ],
+    "available": true,
+    "image_url": "/menu-images/soft-icecekler-dolche-ice-tea.webp"
+  },
+  {
+    "id": "soft-icecekler-dolche-rush",
+    "category": "Drinks",
+    "sub_category": "Soft İçecekler",
+    "name": "Dolche Rush",
+    "short_description": "Meyve ve soda karışımıyla hazırlanan, canlandırıcı gazlı içecek.",
+    "price": 180,
+    "currency": "TL",
+    "allergens": [],
+    "tags": [
+      "soft-drink",
+      "iced",
+      "vegan"
+    ],
+    "available": true,
+    "image_url": "/menu-images/soft-icecekler-dolche-rush.webp"
+  },
+  {
+    "id": "soft-icecekler-frozen-cilek-kavun-seftali-karpuz",
+    "category": "Drinks",
+    "sub_category": "Soft İçecekler",
+    "name": "Frozen (Çilek, Kavun, Şeftali, Karpuz)",
+    "short_description": "Çilek, kavun, şeftali ve karpuzla hazırlanan serinletici frozen karışımı.",
+    "price": 180,
+    "currency": "TL",
+    "allergens": [],
+    "tags": [
+      "soft-drink",
+      "iced",
+      "vegan"
+    ],
+    "available": true,
+    "image_url": "/menu-images/soft-icecekler-frozen-cilek-kavun-seftali-karpuz.webp"
+  },
+  {
+    "id": "soft-icecekler-hibiskus-lime",
+    "category": "Drinks",
+    "sub_category": "Soft İçecekler",
+    "name": "Hibiskus Lime",
+    "short_description": "Hibiskus ve lime aromalarının uyumuyla ekşimsi ve ferah bir içim.",
+    "price": 180,
+    "currency": "TL",
+    "allergens": [],
+    "tags": [
+      "soft-drink",
+      "iced",
+      "vegan"
+    ],
+    "available": true,
+    "image_url": "/menu-images/soft-icecekler-hibiskus-lime.webp"
+  },
+  {
+    "id": "soft-icecekler-lime-green-tea",
+    "category": "Drinks",
+    "sub_category": "Soft İçecekler",
+    "name": "Lime Green Tea",
+    "short_description": "Yeşil çay ve lime karışımı; dengeli ve serinletici.",
+    "price": 180,
+    "currency": "TL",
+    "allergens": [
+      "caffeine"
+    ],
+    "tags": [
+      "soft-drink",
+      "iced",
+      "caffeinated",
+      "vegan"
+    ],
+    "available": true,
+    "image_url": "/menu-images/soft-icecekler-lime-green-tea.webp"
+  },
+  {
+    "id": "soft-icecekler-limonata",
+    "category": "Drinks",
+    "sub_category": "Soft İçecekler",
+    "name": "Limonata",
+    "short_description": "Taze sıkılmış limonla hazırlanan klasik, ferahlatıcı limonata.",
+    "price": 150,
+    "currency": "TL",
+    "allergens": [],
+    "tags": [
+      "soft-drink",
+      "iced",
+      "vegan"
+    ],
+    "available": true,
+    "image_url": "/menu-images/soft-icecekler-limonata.webp"
+  },
+  {
+    "id": "soft-icecekler-mango-frozen",
+    "category": "Drinks",
+    "sub_category": "Soft İçecekler",
+    "name": "Mango Frozen",
+    "short_description": "Olgun mangolarla hazırlanan yoğun aromalı, buzlu içecek.",
+    "price": 195,
+    "currency": "TL",
+    "allergens": [],
+    "tags": [
+      "soft-drink",
+      "iced",
+      "vegan"
+    ],
+    "available": true,
+    "image_url": ""
+  },
+  {
+    "id": "soft-icecekler-milkshake",
+    "category": "Drinks",
+    "sub_category": "Soft İçecekler",
+    "name": "Milkshake",
+    "short_description": "Süt ve dondurmayla hazırlanan klasik milkshake; kremamsı dokuda.",
+    "price": 195,
+    "currency": "TL",
     "allergens": [
       "dairy"
     ],
+    "tags": [
+      "soft-drink",
+      "iced",
+      "contains-dairy",
+      "vegetarian"
+    ],
     "available": true,
-    "image_url": "menu-images/drink-flatwhite.webp"
+    "image_url": "/menu-images/soft-icecekler-milkshake.webp"
   },
   {
-    "id": "drink-v60",
+    "id": "soft-icecekler-protein-smoothie",
     "category": "Drinks",
-    "sub_category": "Filter & Pour-Over",
-    "name": "V60 Pour-Over",
-    "short_description": "Clean cup highlighting fruity notes.",
-    "price": 4.5,
-    "currency": "USD",
-    "tags": [
-      "vegan",
-      "gluten-free"
-    ],
-    "allergens": [],
-    "available": true,
-    "image_url": "menu-images/drink-v60.webp"
-  },
-  {
-    "id": "drink-chemex",
-    "category": "Drinks",
-    "sub_category": "Filter & Pour-Over",
-    "name": "Chemex (2 cups)",
-    "short_description": "Bright, aromatic brew, perfect for sharing.",
-    "price": 6.5,
-    "currency": "USD",
-    "tags": [
-      "vegan",
-      "gluten-free"
-    ],
-    "allergens": [],
-    "available": true,
-    "image_url": "menu-images/drink-chemex.webp"
-  },
-  {
-    "id": "drink-coldbrew",
-    "category": "Drinks",
-    "sub_category": "Cold Coffee",
-    "name": "Cold Brew",
-    "short_description": "18-hour steep, smooth and low acidity.",
-    "price": 4,
-    "currency": "USD",
-    "tags": [
-      "vegan",
-      "gluten-free"
-    ],
-    "allergens": [],
-    "available": true,
-    "image_url": "menu-images/drink-coldbrew.webp"
-  },
-  {
-    "id": "drink-espressotonic",
-    "category": "Drinks",
-    "sub_category": "Cold Coffee",
-    "name": "Espresso Tonic",
-    "short_description": "Bright espresso over sparkling tonic.",
-    "price": 4.2,
-    "currency": "USD",
-    "tags": [
-      "vegan",
-      "gluten-free"
-    ],
-    "allergens": [],
-    "available": true,
-    "image_url": "menu-images/drink-espressotonic.webp"
-  },
-  {
-    "id": "drink-matcha",
-    "category": "Drinks",
-    "sub_category": "Tea & Alternatives",
-    "name": "Matcha Latte",
-    "short_description": "Ceremonial-grade matcha with steamed milk.",
-    "price": 4.8,
-    "currency": "USD",
-    "tags": [
-      "vegetarian",
-      "gluten-free"
-    ],
+    "sub_category": "Soft İçecekler",
+    "name": "Protein Smoothie",
+    "short_description": "Meyve ve sütle harmanlanmış, yüksek proteinli içecek seçeneği.",
+    "price": 200,
+    "currency": "TL",
     "allergens": [
-      "dairy"
+      "dairy",
+      "soy"
+    ],
+    "tags": [
+      "soft-drink",
+      "iced",
+      "contains-dairy",
+      "vegetarian"
     ],
     "available": true,
-    "image_url": "menu-images/drink-matcha.webp"
+    "image_url": "/menu-images/soft-icecekler-protein-smoothie.webp"
   },
   {
-    "id": "drink-earlgrey",
+    "id": "soft-icecekler-summer-lime-frozen",
     "category": "Drinks",
-    "sub_category": "Tea & Alternatives",
-    "name": "Earl Grey Tea",
-    "short_description": "Classic black tea with bergamot.",
-    "price": 3,
-    "currency": "USD",
-    "tags": [
-      "vegan",
-      "gluten-free"
-    ],
+    "sub_category": "Soft İçecekler",
+    "name": "Summer Lime Frozen",
+    "short_description": "Taze lime aromasıyla hazırlanmış, buzlu ve ferahlatıcı frozen içecek.",
+    "price": 180,
+    "currency": "TL",
     "allergens": [],
+    "tags": [
+      "soft-drink",
+      "iced",
+      "vegan"
+    ],
     "available": true,
-    "image_url": "menu-images/drink-earlgrey.webp"
+    "image_url": "/menu-images/soft-icecekler-summer-lime-frozen.webp"
   },
   {
-    "id": "starter-turkeyavo",
-    "category": "Starters",
-    "sub_category": "Sandwiches",
-    "name": "Turkey Avocado Sandwich",
-    "short_description": "Wholegrain bread, roasted turkey, avocado, tomato.",
-    "price": 6.8,
-    "currency": "USD",
+    "id": "soft-icecekler-cilekli-limonata",
+    "category": "Drinks",
+    "sub_category": "Soft İçecekler",
+    "name": "Çilekli Limonata",
+    "short_description": "Taze çileklerle tatlandırılmış, ferahlatıcı ev yapımı limonata.",
+    "price": 170,
+    "currency": "TL",
+    "allergens": [],
     "tags": [
-      "contains-meat"
+      "soft-drink",
+      "iced",
+      "vegan"
     ],
+    "available": true,
+    "image_url": "/menu-images/soft-icecekler-cilekli-limonata.webp"
+  },
+  {
+    "id": "soguk-icecekler-affagato",
+    "category": "Drinks",
+    "sub_category": "Soğuk İçecekler",
+    "name": "Affagato",
+    "short_description": "Espresso ve dondurmanın sade birleşimi; yoğun aromalı, serinletici bir klasik.",
+    "price": 185,
+    "currency": "TL",
     "allergens": [
-      "gluten"
+      "dairy",
+      "caffeine"
+    ],
+    "tags": [
+      "coffee",
+      "iced",
+      "caffeinated",
+      "contains-dairy",
+      "vegetarian"
     ],
     "available": true,
-    "image_url": "menu-images/starter-turkeyavo.webp"
+    "image_url": "/menu-images/soguk-icecekler-affagato.webp"
   },
   {
-    "id": "starter-quinoa",
-    "category": "Starters",
-    "sub_category": "Salads & Bowls",
-    "name": "Quinoa Bowl",
-    "short_description": "Quinoa, roasted veggies, tahini dressing.",
-    "price": 7.2,
-    "currency": "USD",
+    "id": "soguk-icecekler-churchill",
+    "category": "Drinks",
+    "sub_category": "Soğuk İçecekler",
+    "name": "Churchill",
+    "short_description": "Limon, soda ve tuzla hazırlanan klasik, ferahlatıcı karışım.",
+    "price": 100,
+    "currency": "TL",
+    "allergens": [],
     "tags": [
-      "vegan",
-      "gluten-free"
+      "soft-drink",
+      "iced",
+      "vegan"
     ],
+    "available": true,
+    "image_url": ""
+  },
+  {
+    "id": "soguk-icecekler-ice-americano",
+    "category": "Drinks",
+    "sub_category": "Soğuk İçecekler",
+    "name": "Ice Americano",
+    "short_description": "Yoğun espresso ve soğuk suyla hazırlanan sade, ferahlatıcı kahve.",
+    "price": 160,
+    "currency": "TL",
     "allergens": [
-      "sesame"
+      "caffeine"
+    ],
+    "tags": [
+      "coffee",
+      "iced",
+      "caffeinated",
+      "vegan"
     ],
     "available": true,
-    "image_url": "menu-images/starter-quinoa.webp"
+    "image_url": "/menu-images/soguk-icecekler-ice-americano.webp"
   },
   {
-    "id": "starter-avotoast",
-    "category": "Starters",
-    "sub_category": "Toasts",
-    "name": "Avocado Toast",
-    "short_description": "Sourdough with smashed avocado, chili flakes, olive oil.",
-    "price": 5,
-    "currency": "USD",
+    "id": "soguk-icecekler-ice-latte",
+    "category": "Drinks",
+    "sub_category": "Soğuk İçecekler",
+    "name": "Ice Latte",
+    "short_description": "Espresso ve sütle hazırlanan dengeli soğuk kahve.",
+    "price": 165,
+    "currency": "TL",
+    "allergens": [
+      "dairy",
+      "caffeine"
+    ],
     "tags": [
+      "coffee",
+      "iced",
+      "caffeinated",
+      "contains-dairy",
+      "vegetarian"
+    ],
+    "available": true,
+    "image_url": "/menu-images/soguk-icecekler-ice-latte.webp"
+  },
+  {
+    "id": "soguk-icecekler-ice-latte-caramel",
+    "category": "Drinks",
+    "sub_category": "Soğuk İçecekler",
+    "name": "Ice Latte Caramel",
+    "short_description": "Karamel aromasıyla zenginleşen buzlu latte.",
+    "price": 195,
+    "currency": "TL",
+    "allergens": [
+      "dairy",
+      "caffeine"
+    ],
+    "tags": [
+      "coffee",
+      "iced",
+      "caffeinated",
+      "contains-dairy",
+      "vegetarian"
+    ],
+    "available": true,
+    "image_url": "/menu-images/soguk-icecekler-ice-latte-caramel.webp"
+  },
+  {
+    "id": "soguk-icecekler-ice-latte-mocha",
+    "category": "Drinks",
+    "sub_category": "Soğuk İçecekler",
+    "name": "Ice Latte Mocha",
+    "short_description": "Çikolata dokunuşuyla aromatik, yoğun lezzetli soğuk latte.",
+    "price": 195,
+    "currency": "TL",
+    "allergens": [
+      "dairy",
+      "caffeine"
+    ],
+    "tags": [
+      "coffee",
+      "iced",
+      "caffeinated",
+      "contains-dairy",
+      "vegetarian"
+    ],
+    "available": true,
+    "image_url": "/menu-images/soguk-icecekler-ice-latte-mocha.webp"
+  },
+  {
+    "id": "soguk-icecekler-ice-latte-vanilya",
+    "category": "Drinks",
+    "sub_category": "Soğuk İçecekler",
+    "name": "Ice Latte Vanilya",
+    "short_description": "Vanilya ile yumuşatılmış, kremamsı soğuk latte.",
+    "price": 195,
+    "currency": "TL",
+    "allergens": [
+      "dairy",
+      "caffeine"
+    ],
+    "tags": [
+      "coffee",
+      "iced",
+      "caffeinated",
+      "contains-dairy",
+      "vegetarian"
+    ],
+    "available": true,
+    "image_url": ""
+  },
+  {
+    "id": "soguk-icecekler-soda",
+    "category": "Drinks",
+    "sub_category": "Soğuk İçecekler",
+    "name": "Soda",
+    "short_description": "Doğal maden suyundan elde edilmiş, zengin içerikli sade gazlı içecek.",
+    "price": 65,
+    "currency": "TL",
+    "allergens": [],
+    "tags": [
+      "soft-drink",
+      "iced",
+      "vegan"
+    ],
+    "available": true,
+    "image_url": "/menu-images/soguk-icecekler-soda.webp"
+  },
+  {
+    "id": "soguk-icecekler-su",
+    "category": "Drinks",
+    "sub_category": "Soğuk İçecekler",
+    "name": "Su",
+    "short_description": "Doğal kaynak suyu; saf, dengeli ve ferahlatıcı.",
+    "price": 45,
+    "currency": "TL",
+    "allergens": [],
+    "tags": [
+      "soft-drink",
+      "iced",
+      "vegan"
+    ],
+    "available": true,
+    "image_url": "/menu-images/soguk-icecekler-su.webp"
+  },
+  {
+    "id": "sicak-icecekler-americano",
+    "category": "Drinks",
+    "sub_category": "Sıcak İçecekler",
+    "name": "Americano",
+    "short_description": "Yoğun espressoyu sıcak suyla dengeleyen sade, aromatik kahve.",
+    "currency": "TL",
+    "tags": [
+      "coffee",
+      "hot",
+      "caffeinated",
       "vegan"
     ],
     "allergens": [
+      "caffeine"
+    ],
+    "image_url": "/menu-images/sicak-icecekler-americano-orta.webp",
+    "variants": [
+      {
+        "id": "orta",
+        "label": "Orta",
+        "price": 130.0,
+        "available": true,
+        "short_description": "Klasik espresso bazlı, sade ve dengeli sıcak kahve."
+      },
+      {
+        "id": "double",
+        "label": "Double",
+        "price": 145.0,
+        "available": true,
+        "short_description": "Yoğun espressoyu sıcak suyla dengeleyen sade, aromatik kahve."
+      }
+    ]
+  },
+  {
+    "id": "sicak-icecekler-babycino-orta",
+    "category": "Drinks",
+    "sub_category": "Sıcak İçecekler",
+    "name": "Babycino",
+    "short_description": "Süt köpüğünden yapılan, kafeinsiz sıcak içecek; çocuklar için ideal.",
+    "price": 120,
+    "currency": "TL",
+    "tags": [
+      "hot",
+      "contains-dairy",
+      "vegetarian",
+      "caffeine-free"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "available": true,
+    "image_url": "/menu-images/sicak-icecekler-babycino-orta.webp"
+  },
+  {
+    "id": "sicak-icecekler-bitkisel-sut-orta",
+    "category": "Drinks",
+    "sub_category": "Sıcak İçecekler",
+    "name": "Bitkisel Süt",
+    "short_description": "Bitkisel bazlı süt; kahvelerle uyumlu, hafif ve kremamsı.",
+    "price": 40,
+    "currency": "TL",
+    "tags": [
+      "hot",
+      "vegan"
+    ],
+    "allergens": [
+      "soy"
+    ],
+    "available": true,
+    "image_url": "/menu-images/sicak-icecekler-bitkisel-sut-orta.webp"
+  },
+  {
+    "id": "sicak-icecekler-cafe-latte",
+    "category": "Drinks",
+    "sub_category": "Sıcak İçecekler",
+    "name": "Cafe Latte",
+    "short_description": "Kremsi süt ve espresso karışımıyla klasik, yumuşak içimli latte.",
+    "currency": "TL",
+    "tags": [
+      "coffee",
+      "hot",
+      "caffeinated",
+      "contains-dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "dairy",
+      "caffeine"
+    ],
+    "image_url": "/menu-images/sicak-icecekler-cafe-latte-orta.webp",
+    "variants": [
+      {
+        "id": "orta",
+        "label": "Orta",
+        "price": 145,
+        "available": true
+      },
+      {
+        "id": "double",
+        "label": "Double",
+        "price": 165,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "sicak-icecekler-cafe-latte-caramel",
+    "category": "Drinks",
+    "sub_category": "Sıcak İçecekler",
+    "name": "Cafe Latte Caramel",
+    "short_description": "Karamel aromasıyla yumuşatılmış, süt bazlı yoğun espresso.",
+    "currency": "TL",
+    "tags": [
+      "coffee",
+      "hot",
+      "caffeinated",
+      "contains-dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "dairy",
+      "caffeine"
+    ],
+    "image_url": "/menu-images/sicak-icecekler-cafe-latte-caramel-orta.webp",
+    "variants": [
+      {
+        "id": "orta",
+        "label": "Orta",
+        "price": 170.0,
+        "available": true,
+        "short_description": "Espresso ve karamel uyumuyla hazırlanmış, sütlü dengeli kahve."
+      },
+      {
+        "id": "double",
+        "label": "Double",
+        "price": 185.0,
+        "available": true,
+        "short_description": "Karamel aromasıyla yumuşatılmış, süt bazlı yoğun espresso."
+      }
+    ]
+  },
+  {
+    "id": "sicak-icecekler-cafe-latte-miel-orta",
+    "category": "Drinks",
+    "sub_category": "Sıcak İçecekler",
+    "name": "Cafe Latte Miel",
+    "short_description": "Bal dokunuşuyla tatlandırılmış, yumuşak içimli sütlü kahve.",
+    "price": 185,
+    "currency": "TL",
+    "tags": [
+      "coffee",
+      "hot",
+      "caffeinated",
+      "contains-dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "dairy",
+      "caffeine"
+    ],
+    "available": true,
+    "image_url": ""
+  },
+  {
+    "id": "sicak-icecekler-cafe-latte-mocha",
+    "category": "Drinks",
+    "sub_category": "Sıcak İçecekler",
+    "name": "Cafe Latte Mocha",
+    "short_description": "Çikolata aromasıyla zenginleşen sütlü, sıcak kahve karışımı.",
+    "currency": "TL",
+    "tags": [
+      "coffee",
+      "hot",
+      "caffeinated",
+      "contains-dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "dairy",
+      "soy",
+      "caffeine"
+    ],
+    "image_url": "/menu-images/sicak-icecekler-cafe-latte-mocha-orta.webp",
+    "variants": [
+      {
+        "id": "orta",
+        "label": "Orta",
+        "price": 170.0,
+        "available": true,
+        "short_description": "Espresso, süt ve çikolata karışımıyla dengeli, yumuşak lezzet."
+      },
+      {
+        "id": "double",
+        "label": "Double",
+        "price": 185.0,
+        "available": true,
+        "short_description": "Çikolata aromasıyla zenginleşen sütlü, sıcak kahve karışımı."
+      }
+    ]
+  },
+  {
+    "id": "sicak-icecekler-cafe-latte-vanilya",
+    "category": "Drinks",
+    "sub_category": "Sıcak İçecekler",
+    "name": "Cafe Latte Vanilya",
+    "short_description": "Vanilya aromalı sıcak latte; yumuşak ve dengeli bir lezzet.",
+    "currency": "TL",
+    "tags": [
+      "coffee",
+      "hot",
+      "caffeinated",
+      "contains-dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "dairy",
+      "caffeine"
+    ],
+    "image_url": "",
+    "variants": [
+      {
+        "id": "orta",
+        "label": "Orta",
+        "price": 170.0,
+        "available": true,
+        "short_description": "Vanilya notalarıyla aromatik, süt bazlı sıcak kahve."
+      },
+      {
+        "id": "double",
+        "label": "Double",
+        "price": 185.0,
+        "available": true,
+        "short_description": "Vanilya aromalı sıcak latte; yumuşak ve dengeli bir lezzet."
+      }
+    ]
+  },
+  {
+    "id": "sicak-icecekler-cafe-latte-white-mocha",
+    "category": "Drinks",
+    "sub_category": "Sıcak İçecekler",
+    "name": "Cafe Latte White Mocha",
+    "short_description": "Beyaz çikolata ile tatlandırılmış, yumuşak içimli latte.",
+    "currency": "TL",
+    "tags": [
+      "coffee",
+      "hot",
+      "caffeinated",
+      "contains-dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "dairy",
+      "soy",
+      "caffeine"
+    ],
+    "image_url": "/menu-images/sicak-icecekler-cafe-latte-white-mocha-orta.webp",
+    "variants": [
+      {
+        "id": "orta",
+        "label": "Orta",
+        "price": 170.0,
+        "available": true,
+        "short_description": "Süt, espresso ve beyaz çikolata karışımıyla dengeli sıcak içim."
+      },
+      {
+        "id": "double",
+        "label": "Double",
+        "price": 185.0,
+        "available": true,
+        "short_description": "Beyaz çikolata ile tatlandırılmış, yumuşak içimli latte."
+      }
+    ]
+  },
+  {
+    "id": "sicak-icecekler-cappuccino",
+    "category": "Drinks",
+    "sub_category": "Sıcak İçecekler",
+    "name": "Cappuccino",
+    "short_description": "Yoğun espresso ve süt köpüğüyle dengelenmiş klasik cappuccino.",
+    "currency": "TL",
+    "tags": [
+      "coffee",
+      "hot",
+      "caffeinated",
+      "contains-dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "dairy",
+      "caffeine"
+    ],
+    "image_url": "/menu-images/sicak-icecekler-cappuccino-orta.webp",
+    "variants": [
+      {
+        "id": "orta",
+        "label": "Orta",
+        "price": 145.0,
+        "available": true,
+        "short_description": "Süt köpüğüyle yumuşatılmış aromatik sıcak kahve."
+      },
+      {
+        "id": "double",
+        "label": "Double",
+        "price": 165.0,
+        "available": true,
+        "short_description": "Yoğun espresso ve süt köpüğüyle dengelenmiş klasik cappuccino."
+      }
+    ]
+  },
+  {
+    "id": "sicak-icecekler-chai-tea-latte-orta",
+    "category": "Drinks",
+    "sub_category": "Sıcak İçecekler",
+    "name": "Chai Tea Latte",
+    "short_description": "Baharat karışımı ve sütle hazırlanan sıcak, aromatik içecek.",
+    "price": 175,
+    "currency": "TL",
+    "tags": [
+      "tea",
+      "hot",
+      "caffeinated",
+      "contains-dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "dairy",
+      "caffeine"
+    ],
+    "available": true,
+    "image_url": "/menu-images/sicak-icecekler-chai-tea-latte-orta.webp"
+  },
+  {
+    "id": "sicak-icecekler-cortado-orta",
+    "category": "Drinks",
+    "sub_category": "Sıcak İçecekler",
+    "name": "Cortado",
+    "short_description": "Eşit oranlarda espresso ve süt; kısa, dengeli bir içim.",
+    "price": 145,
+    "currency": "TL",
+    "tags": [
+      "coffee",
+      "hot",
+      "caffeinated",
+      "contains-dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "dairy",
+      "caffeine"
+    ],
+    "available": true,
+    "image_url": "/menu-images/sicak-icecekler-cortado-orta.webp"
+  },
+  {
+    "id": "sicak-icecekler-espresso",
+    "category": "Drinks",
+    "sub_category": "Sıcak İçecekler",
+    "name": "Espresso",
+    "short_description": "Yoğun aromalı, sert içimli espresso shot.",
+    "currency": "TL",
+    "tags": [
+      "coffee",
+      "hot",
+      "caffeinated",
+      "vegan"
+    ],
+    "allergens": [
+      "caffeine"
+    ],
+    "image_url": "/menu-images/sicak-icecekler-espresso-orta.webp",
+    "variants": [
+      {
+        "id": "orta",
+        "label": "Orta",
+        "price": 115.0,
+        "available": true,
+        "short_description": "Kısa sürede demlenen, yoğun kafeinli sade kahve."
+      },
+      {
+        "id": "double",
+        "label": "Double",
+        "price": 135.0,
+        "available": true,
+        "short_description": "Yoğun aromalı, sert içimli espresso shot."
+      }
+    ]
+  },
+  {
+    "id": "sicak-icecekler-espresso-mochiato",
+    "category": "Drinks",
+    "sub_category": "Sıcak İçecekler",
+    "name": "Espresso Mochiato",
+    "short_description": "Espresso üzerine az miktarda süt köpüğü; dengeli yoğunlukta.",
+    "currency": "TL",
+    "tags": [
+      "coffee",
+      "hot",
+      "caffeinated",
+      "contains-dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "dairy",
+      "caffeine"
+    ],
+    "image_url": "/menu-images/sicak-icecekler-espresso-mochiato-orta.webp",
+    "variants": [
+      {
+        "id": "orta",
+        "label": "Orta",
+        "price": 135.0,
+        "available": true,
+        "short_description": "Az süt köpüğüyle yumuşatılmış klasik espresso."
+      },
+      {
+        "id": "double",
+        "label": "Double",
+        "price": 155.0,
+        "available": true,
+        "short_description": "Espresso üzerine az miktarda süt köpüğü; dengeli yoğunlukta."
+      }
+    ]
+  },
+  {
+    "id": "sicak-icecekler-filtre-kahve",
+    "category": "Drinks",
+    "sub_category": "Sıcak İçecekler",
+    "name": "Filtre Kahve",
+    "short_description": "Yoğun demli, uzun içimli sıcak filtre kahve.",
+    "currency": "TL",
+    "tags": [
+      "coffee",
+      "hot",
+      "caffeinated",
+      "vegan"
+    ],
+    "allergens": [
+      "caffeine"
+    ],
+    "image_url": "/menu-images/sicak-icecekler-filtre-kahve-orta.webp",
+    "variants": [
+      {
+        "id": "orta",
+        "label": "Orta",
+        "price": 125.0,
+        "available": true,
+        "short_description": "Dengeli aromasıyla sade, klasik filtre kahve."
+      },
+      {
+        "id": "double",
+        "label": "Double",
+        "price": 145.0,
+        "available": true,
+        "short_description": "Yoğun demli, uzun içimli sıcak filtre kahve."
+      }
+    ]
+  },
+  {
+    "id": "sicak-icecekler-flat-white",
+    "category": "Drinks",
+    "sub_category": "Sıcak İçecekler",
+    "name": "Flat White",
+    "short_description": "İnce süt köpüğüyle kaplanan, yoğun espresso bazlı kahve.",
+    "currency": "TL",
+    "tags": [
+      "coffee",
+      "hot",
+      "caffeinated",
+      "contains-dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "dairy",
+      "caffeine"
+    ],
+    "image_url": "/menu-images/sicak-icecekler-flat-white-orta.webp",
+    "variants": [
+      {
+        "id": "orta",
+        "label": "Orta",
+        "price": 150.0,
+        "available": true,
+        "short_description": "Yoğun espresso ve kadifemsi süt dokusuyla dengeli içim."
+      },
+      {
+        "id": "double",
+        "label": "Double",
+        "price": 170.0,
+        "available": true,
+        "short_description": "İnce süt köpüğüyle kaplanan, yoğun espresso bazlı kahve."
+      }
+    ]
+  },
+  {
+    "id": "sicak-icecekler-lotus-spice-latte-orta",
+    "category": "Drinks",
+    "sub_category": "Sıcak İçecekler",
+    "name": "Lotus Spice Latte",
+    "short_description": "Lotus bisküvisi aromalı, baharat notalarıyla zenginleştirilmiş latte.",
+    "price": 185,
+    "currency": "TL",
+    "tags": [
+      "coffee",
+      "hot",
+      "caffeinated",
+      "contains-dairy",
+      "contains-gluten",
+      "vegetarian"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten",
+      "soy",
+      "caffeine"
+    ],
+    "available": true,
+    "image_url": "/menu-images/sicak-icecekler-lotus-spice-latte-orta.webp"
+  },
+  {
+    "id": "sicak-icecekler-salep-orta",
+    "category": "Drinks",
+    "sub_category": "Sıcak İçecekler",
+    "name": "Salep",
+    "short_description": "Gerçek salep ve sütle hazırlanan, yoğun aromalı sıcak içecek.",
+    "price": 150,
+    "currency": "TL",
+    "tags": [
+      "hot",
+      "contains-dairy",
+      "vegetarian",
+      "caffeine-free"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "available": true,
+    "image_url": "/menu-images/sicak-icecekler-salep-orta.webp"
+  },
+  {
+    "id": "sicak-icecekler-sicak-cikolata-orta",
+    "category": "Drinks",
+    "sub_category": "Sıcak İçecekler",
+    "name": "Sıcak Çikolata",
+    "short_description": "Gerçek kakao ve sütle hazırlanmış, yoğun ve kremamsı sıcak çikolata.",
+    "price": 165,
+    "currency": "TL",
+    "tags": [
+      "hot",
+      "contains-dairy",
+      "vegetarian",
+      "caffeine-free"
+    ],
+    "allergens": [
+      "dairy",
+      "soy"
+    ],
+    "available": true,
+    "image_url": "/menu-images/sicak-icecekler-sicak-cikolata-orta.webp"
+  },
+  {
+    "id": "sicak-icecekler-turk-kahvesi",
+    "category": "Drinks",
+    "sub_category": "Sıcak İçecekler",
+    "name": "Türk Kahvesi",
+    "short_description": "Klasik Türk kahvesi; yoğun köpük ve dengeli kavrulmuş tat profili.",
+    "currency": "TL",
+    "tags": [
+      "coffee",
+      "hot",
+      "caffeinated",
+      "vegan"
+    ],
+    "allergens": [
+      "caffeine"
+    ],
+    "image_url": "/menu-images/sicak-icecekler-turk-kahvesi-orta.webp",
+    "variants": [
+      {
+        "id": "orta",
+        "label": "Orta",
+        "price": 125.0,
+        "available": true,
+        "short_description": "Klasik Türk kahvesi; yoğun köpük ve dengeli kavrulmuş tat profili."
+      },
+      {
+        "id": "double",
+        "label": "Double",
+        "price": 145.0,
+        "available": true,
+        "short_description": "Klasik Türk kahvesi; yoğun köpük ve dengeli kavrulmuş tat profili."
+      }
+    ]
+  },
+  {
+    "id": "sicak-icecekler-cay",
+    "category": "Drinks",
+    "sub_category": "Sıcak İçecekler",
+    "name": "Çay",
+    "short_description": "Yoğun demlenmiş siyah çay; sıcak, sade ve geleneksel.",
+    "currency": "TL",
+    "tags": [
+      "tea",
+      "hot",
+      "caffeinated",
+      "vegan"
+    ],
+    "allergens": [
+      "caffeine"
+    ],
+    "image_url": "/menu-images/sicak-icecekler-cay-orta.webp",
+    "variants": [
+      {
+        "id": "orta",
+        "label": "Orta",
+        "price": 50.0,
+        "available": true,
+        "short_description": "Dengeli dem oranıyla klasik siyah çay."
+      },
+      {
+        "id": "double",
+        "label": "Double",
+        "price": 65.0,
+        "available": true,
+        "short_description": "Yoğun demlenmiş siyah çay; sıcak, sade ve geleneksel."
+      }
+    ]
+  },
+  {
+    "id": "bakery-3-peynirli-zeytinli-simit",
+    "category": "Starters",
+    "sub_category": "Bakery",
+    "name": "3 Peynirli Zeytinli Simit",
+    "short_description": "Üç peynir karışımı ve zeytinle zenginleştirilmiş taze simit.",
+    "price": 175,
+    "currency": "TL",
+    "tags": [
+      "bakery",
+      "starter",
+      "contains-dairy",
+      "contains-gluten",
+      "vegetarian"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten",
+      "sesame"
+    ],
+    "available": true,
+    "image_url": "/menu-images/bakery-3-peynirli-zeytinli-simit.webp"
+  },
+  {
+    "id": "bakery-4-peynirli-bagel",
+    "category": "Starters",
+    "sub_category": "Bakery",
+    "name": "4 Peynirli Bagel",
+    "short_description": "Dört farklı peynirle hazırlanan, taze dolgun bagel.",
+    "price": 200,
+    "currency": "TL",
+    "tags": [
+      "bakery",
+      "starter",
+      "contains-dairy",
+      "contains-gluten",
+      "vegetarian"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten",
+      "egg"
+    ],
+    "available": true,
+    "image_url": "/menu-images/bakery-4-peynirli-bagel.webp"
+  },
+  {
+    "id": "bakery-4-peynirli-panini",
+    "category": "Starters",
+    "sub_category": "Bakery",
+    "name": "4 Peynirli Panini",
+    "short_description": "Eritilmiş dört peynir karışımıyla hazırlanan sıcak panini.",
+    "price": 175,
+    "currency": "TL",
+    "tags": [
+      "bakery",
+      "starter",
+      "contains-dairy",
+      "contains-gluten",
+      "vegetarian"
+    ],
+    "allergens": [
+      "dairy",
       "gluten"
     ],
-    "available": false,
-    "image_url": "menu-images/starter-avotoast.webp"
+    "available": true,
+    "image_url": "/menu-images/bakery-4-peynirli-panini.webp"
+  },
+  {
+    "id": "bakery-ayvalik-tost",
+    "category": "Starters",
+    "sub_category": "Bakery",
+    "name": "Ayvalık Tost",
+    "short_description": "Sucuk, salam, kaşar ve turşuyla hazırlanan klasik Ayvalık tostu.",
+    "price": 180,
+    "currency": "TL",
+    "tags": [
+      "bakery",
+      "starter",
+      "contains-dairy",
+      "contains-gluten"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ],
+    "available": true,
+    "image_url": ""
+  },
+  {
+    "id": "bakery-kasarli-tost",
+    "category": "Starters",
+    "sub_category": "Bakery",
+    "name": "Kaşarlı Tost",
+    "short_description": "Bol kaşar peyniriyle hazırlanan, çıtır ekmekli klasik tost.",
+    "price": 125,
+    "currency": "TL",
+    "tags": [
+      "bakery",
+      "starter",
+      "contains-dairy",
+      "contains-gluten",
+      "vegetarian"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten"
+    ],
+    "available": true,
+    "image_url": "/menu-images/bakery-kasarli-tost.webp"
+  },
+  {
+    "id": "bakery-tahilli-peynirli-panini",
+    "category": "Starters",
+    "sub_category": "Bakery",
+    "name": "Tahıllı Peynirli Panini",
+    "short_description": "Tahıllı ekmek arasında premium peynir; doyurucu ve dengeli lezzet.",
+    "price": 190,
+    "currency": "TL",
+    "tags": [
+      "bakery",
+      "starter",
+      "contains-dairy",
+      "contains-gluten",
+      "vegetarian"
+    ],
+    "allergens": [
+      "dairy",
+      "gluten",
+      "sesame"
+    ],
+    "available": true,
+    "image_url": "/menu-images/bakery-tahilli-peynirli-panini.webp"
   }
 ]
