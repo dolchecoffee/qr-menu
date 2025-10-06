@@ -4,7 +4,7 @@
     "category": "Desserts",
     "sub_category": "Specials",
     "name": "Albeni Çilek Frambuaz",
-    "short_description": "Sütlü çikolata, çilek ve frambuazın dengeli uyumuyla hazırlanan yoğun bir tatlı.",
+    "short_description": "Sütlü çikolata, çilek ve frambuaz ile hazırlanan yoğun tatlı.",
     "price": 220,
     "currency": "TL",
     "allergens": [
@@ -25,7 +25,7 @@
     "category": "Desserts",
     "sub_category": "Specials",
     "name": "Ballı Cevizli Mardenka",
-    "short_description": "Ballı katmanlar arasında ceviz parçalarıyla zenginleştirilmiş geleneksel bir tat.",
+    "short_description": "Mardenka, ballı katmanlar arasında ceviz parçalarıyla hazırlanır.",
     "price": 225,
     "currency": "TL",
     "allergens": [
@@ -48,7 +48,7 @@
     "category": "Desserts",
     "sub_category": "Specials",
     "name": "Bowl",
-    "short_description": "Mevsim meyveleri, granola ve yoğurtla sunulan hafif, tazeleyici bir bowl.",
+    "short_description": "Mevsim meyveleri ile sunulan hafif, tazeleyici bowl.",
     "price": 300,
     "currency": "TL",
     "allergens": [
@@ -71,7 +71,7 @@
     "category": "Desserts",
     "sub_category": "Cheesecakeler",
     "name": "Frenk Üzümlü Cheesecake",
-    "short_description": "Frenk üzümü sosuyla ferahlatılmış kremsi cheesecake; kıtır tabanla dengelenir.",
+    "short_description": "Frenk üzümü sosu ile hazırlanan cheesecake.",
     "price": 175,
     "currency": "TL",
     "allergens": [
@@ -93,7 +93,7 @@
     "category": "Desserts",
     "sub_category": "Cheesecakeler",
     "name": "Limonlu Cheesecake",
-    "short_description": "Hafif ekşi limon aromalı krema ve gevrek taban; klasik cheesecake.",
+    "short_description": "Limon aromalı krema ve gevrek taban; klasik cheesecake.",
     "price": 210,
     "currency": "TL",
     "allergens": [
@@ -115,7 +115,7 @@
     "category": "Desserts",
     "sub_category": "Cheesecakeler",
     "name": "Lotus Cheesecake",
-    "short_description": "Lotus bisküvisiyle hazırlanan yoğun aromalı cheesecake; karamelsi notaları ön planda sunar.",
+    "short_description": "Lotus bisküvisiyle hazırlanan yoğun aromalı ve karamelsi cheesecake.",
     "price": 210,
     "currency": "TL",
     "allergens": [
@@ -137,7 +137,7 @@
     "category": "Desserts",
     "sub_category": "Specials",
     "name": "Mono Bella",
-    "short_description": "Kakaolu taban üzerinde çikolatalı krema, frambuaz ve frambuaz jöle.",
+    "short_description": "Kakaolu taban üzerinde çikolatalı krema, frambuaz.",
     "price": 220,
     "currency": "TL",
     "allergens": [
@@ -160,7 +160,7 @@
     "category": "Desserts",
     "sub_category": "Kekler & Kurabiyeler",
     "name": "Mozaik Kek",
-    "short_description": "Çikolata ve bisküvi parçalarıyla hazırlanan nostaljik, yoğun lezzetli mozaik kek.",
+    "short_description": "Çikolata ve bisküvi parçalarıyla hazırlanır.",
     "price": 195,
     "currency": "TL",
     "allergens": [
@@ -181,7 +181,7 @@
     "category": "Desserts",
     "sub_category": "Specials",
     "name": "Profiterol",
-    "short_description": "İçi kremayla dolu hafif hamurlar; üzerine sıcak çikolata sosuyla servis edilir.",
+    "short_description": "Klasik profiterol.",
     "price": 220,
     "currency": "TL",
     "allergens": [
@@ -303,8 +303,8 @@
     "id": "matchalar-dolche-matcha-vanilya-karamel",
     "category": "Drinks",
     "sub_category": "Matchalar",
-    "name": "Dolche Matcha (Vanilya + Karamel)",
-    "short_description": "Karamel ve vanilya lezzetleriyle birleşen matcha.",
+    "name": "Dolche Matcha",
+    "short_description": "Seçenekler: karamel, vanilya.",
     "currency": "TL",
     "tags": [
       "matcha",
@@ -346,7 +346,7 @@
     "category": "Drinks",
     "sub_category": "Matchalar",
     "name": "Sade Matcha",
-    "short_description": "Sade matcha; ferah ve dengeli bir tat.",
+    "short_description": "Sade matcha; ferah ve dengeli.",
     "currency": "TL",
     "tags": [
       "matcha",
@@ -388,7 +388,7 @@
     "category": "Drinks",
     "sub_category": "Matchalar",
     "name": "Strawberry Matcha",
-    "short_description": "Çilek aromasıyla zenginleştirilmiş matcha.",
+    "short_description": "Çilek ile hazırlanan sade matcha alternatifi.",
     "currency": "TL",
     "tags": [
       "matcha",
@@ -430,7 +430,7 @@
     "category": "Drinks",
     "sub_category": "Matchalar",
     "name": "Vanilya Matcha",
-    "short_description": "Vanilya aromalı matcha; tatlı bir içim sunar.",
+    "short_description": "Vanilya aromalı matcha..",
     "currency": "TL",
     "tags": [
       "matcha",
@@ -472,7 +472,7 @@
     "category": "Drinks",
     "sub_category": "Soft İçecekler",
     "name": "Chocolate Chip Frappucino",
-    "short_description": "Çikolata parçacıklarıyla zenginleştirilmiş, süt bazlı buzlu frappucino.",
+    "short_description": "Çikolata parçacıklarıyla hazırlanan, süt bazlı frappucino.",
     "price": 195,
     "currency": "TL",
     "allergens": [
@@ -513,7 +513,7 @@
     "category": "Drinks",
     "sub_category": "Soft İçecekler",
     "name": "Dolche Rush",
-    "short_description": "Meyve ve soda karışımıyla hazırlanan, canlandırıcı gazlı içecek.",
+    "short_description": "Meyve ve soda karışımıyla hazırlanan gazlı içecek.",
     "price": 180,
     "currency": "TL",
     "allergens": [],
@@ -547,7 +547,7 @@
     "category": "Drinks",
     "sub_category": "Soft İçecekler",
     "name": "Hibiskus Lime",
-    "short_description": "Hibiskus ve lime aromalarının uyumuyla ferah bir içim.",
+    "short_description": "Hibiskus ve lime ile hazırlanan soft içecek.",
     "price": 180,
     "currency": "TL",
     "allergens": [],
@@ -564,7 +564,7 @@
     "category": "Drinks",
     "sub_category": "Soft İçecekler",
     "name": "Lime Green Tea",
-    "short_description": "Yeşil çay ve lime karışımı; dengeli ve serinletici.",
+    "short_description": "Yeşil çay ve lime ile hazırlanan soft içecek.",
     "price": 180,
     "currency": "TL",
     "allergens": [
@@ -584,7 +584,7 @@
     "category": "Drinks",
     "sub_category": "Soft İçecekler",
     "name": "Limonata",
-    "short_description": "Taze sıkılmış limonla hazırlanan klasik, ferahlatıcı limonata.",
+    "short_description": "Klasik, ferahlatıcı limonata.",
     "price": 150,
     "currency": "TL",
     "allergens": [],
@@ -601,7 +601,7 @@
     "category": "Drinks",
     "sub_category": "Soft İçecekler",
     "name": "Mango Frozen",
-    "short_description": "Olgun mangolarla hazırlanan yoğun aromalı, buzlu içecek.",
+    "short_description": "Mango ile hazırlanan buzlu içecek.",
     "price": 195,
     "currency": "TL",
     "allergens": [],
@@ -618,7 +618,7 @@
     "category": "Drinks",
     "sub_category": "Soft İçecekler",
     "name": "Milkshake",
-    "short_description": "Süt ve dondurmayla hazırlanan klasik milkshake; kremamsı dokuda.",
+    "short_description": "Süt ve dondurmayla hazırlanan klasik milkshake.",
     "price": 195,
     "currency": "TL",
     "allergens": [
@@ -638,7 +638,7 @@
     "category": "Drinks",
     "sub_category": "Soft İçecekler",
     "name": "Protein Smoothie",
-    "short_description": "Meyve ve sütle harmanlanmış, yüksek proteinli içecek seçeneği.",
+    "short_description": "Meyve ve sütle harmanlanmış, yüksek proteinli içecek.",
     "price": 200,
     "currency": "TL",
     "allergens": [
@@ -659,7 +659,7 @@
     "category": "Drinks",
     "sub_category": "Soft İçecekler",
     "name": "Summer Lime Frozen",
-    "short_description": "Taze lime aromasıyla hazırlanmış, buzlu ve ferahlatıcı frozen içecek.",
+    "short_description": "Lime ile hazırlanmış frozen.",
     "price": 180,
     "currency": "TL",
     "allergens": [],
@@ -676,7 +676,7 @@
     "category": "Drinks",
     "sub_category": "Soft İçecekler",
     "name": "Çilekli Limonata",
-    "short_description": "Taze çileklerle tatlandırılmış, ferahlatıcı ev yapımı limonata.",
+    "short_description": "Çilek aromalı ev yapımı limonata.",
     "price": 170,
     "currency": "TL",
     "allergens": [],
@@ -693,7 +693,7 @@
     "category": "Drinks",
     "sub_category": "Soğuk İçecekler",
     "name": "Affagato",
-    "short_description": "Espresso ve dondurmanın sade birleşimi; yoğun aromalı, serinletici bir klasik.",
+    "short_description": "Espresso ve dondurma ile hazırlanır.",
     "price": 185,
     "currency": "TL",
     "allergens": [
@@ -715,7 +715,7 @@
     "category": "Drinks",
     "sub_category": "Soğuk İçecekler",
     "name": "Churchill",
-    "short_description": "Limon, soda ve tuzla hazırlanan klasik, ferahlatıcı karışım.",
+    "short_description": "Limon, soda ve tuzla hazırlanan klasik, ferahlatıcı içecek.",
     "price": 100,
     "currency": "TL",
     "allergens": [],
@@ -732,7 +732,7 @@
     "category": "Drinks",
     "sub_category": "Soğuk İçecekler",
     "name": "Ice Americano",
-    "short_description": "Yoğun espresso ve soğuk suyla hazırlanan sade, ferahlatıcı kahve.",
+    "short_description": "Yoğun espresso ve soğuk suyla hazırlanan sade kahve.",
     "price": 160,
     "currency": "TL",
     "allergens": [
@@ -752,7 +752,7 @@
     "category": "Drinks",
     "sub_category": "Soğuk İçecekler",
     "name": "Ice Latte",
-    "short_description": "Espresso ve sütle hazırlanan dengeli soğuk kahve.",
+    "short_description": "Espresso ve sütle hazırlanan soğuk kahve.",
     "price": 165,
     "currency": "TL",
     "allergens": [
@@ -774,7 +774,7 @@
     "category": "Drinks",
     "sub_category": "Soğuk İçecekler",
     "name": "Ice Latte Caramel",
-    "short_description": "Karamel ile zenginleşen buzlu latte.",
+    "short_description": "Karamelli buzlu latte.",
     "price": 195,
     "currency": "TL",
     "allergens": [
@@ -796,7 +796,7 @@
     "category": "Drinks",
     "sub_category": "Soğuk İçecekler",
     "name": "Ice Latte Mocha",
-    "short_description": "Çikolata dokunuşuyla aromatik, yoğun lezzetli soğuk latte.",
+    "short_description": "Çikolatalı, yoğun soğuk latte.",
     "price": 195,
     "currency": "TL",
     "allergens": [
@@ -818,7 +818,7 @@
     "category": "Drinks",
     "sub_category": "Soğuk İçecekler",
     "name": "Ice Latte Vanilya",
-    "short_description": "Vanilya ile yumuşatılmış, kremamsı soğuk latte.",
+    "short_description": "Vanilya ile yumuşatılmış soğuk latte.",
     "price": 195,
     "currency": "TL",
     "allergens": [
@@ -840,7 +840,7 @@
     "category": "Drinks",
     "sub_category": "Soğuk İçecekler",
     "name": "Soda",
-    "short_description": "",
+    "short_description": "Maden suyu.",
     "price": 65,
     "currency": "TL",
     "allergens": [],
@@ -857,7 +857,7 @@
     "category": "Drinks",
     "sub_category": "Soğuk İçecekler",
     "name": "Su",
-    "short_description": "",
+    "short_description": "Şişe su (500ml)",
     "price": 45,
     "currency": "TL",
     "allergens": [],
@@ -874,7 +874,7 @@
     "category": "Drinks",
     "sub_category": "Sıcak İçecekler",
     "name": "Americano",
-    "short_description": "Yoğun espressoyu sıcak suyla dengeleyen sade, aromatik kahve.",
+    "short_description": "Yoğun espressoyu ve sıcak su ile hazırlanan sade kahve.",
     "currency": "TL",
     "tags": [
       "coffee",
@@ -928,7 +928,7 @@
     "category": "Drinks",
     "sub_category": "Sıcak İçecekler",
     "name": "Bitkisel Süt",
-    "short_description": "Bitkisel bazlı süt; kahvelerle uyumlu, hafif ve kremamsı.",
+    "short_description": "Bitkisel bazlı süt.",
     "price": 40,
     "currency": "TL",
     "tags": [
@@ -946,7 +946,7 @@
     "category": "Drinks",
     "sub_category": "Sıcak İçecekler",
     "name": "Cafe Latte",
-    "short_description": "Kremsi süt ve espresso karışımıyla klasik, yumuşak içimli latte.",
+    "short_description": "Süt ve espresso ile hazırlanan klasik latte.",
     "currency": "TL",
     "tags": [
       "coffee",
@@ -980,7 +980,7 @@
     "category": "Drinks",
     "sub_category": "Sıcak İçecekler",
     "name": "Cafe Latte Caramel",
-    "short_description": "Karamel ile yumuşatılmış, süt bazlı yoğun espresso.",
+    "short_description": "Karamelli latte.",
     "currency": "TL",
     "tags": [
       "coffee",
@@ -1016,7 +1016,7 @@
     "category": "Drinks",
     "sub_category": "Sıcak İçecekler",
     "name": "Cafe Latte Miel",
-    "short_description": "Bal dokunuşuyla tatlandırılmış, yumuşak içimli sütlü kahve.",
+    "short_description": "Bal ile tatlandırılmış latte.",
     "price": 185,
     "currency": "TL",
     "tags": [
@@ -1038,7 +1038,7 @@
     "category": "Drinks",
     "sub_category": "Sıcak İçecekler",
     "name": "Cafe Latte Mocha",
-    "short_description": "Çikolata ile zenginleşen sütlü, sıcak latte.",
+    "short_description": "Çikolatalı latte.",
     "currency": "TL",
     "tags": [ 
       "coffee",
@@ -1075,7 +1075,7 @@
     "category": "Drinks",
     "sub_category": "Sıcak İçecekler",
     "name": "Cafe Latte Vanilya",
-    "short_description": "Vanilyalı sıcak latte; yumuşak ve dengeli bir lezzet.",
+    "short_description": "Vanilyalı latte",
     "currency": "TL",
     "tags": [
       "coffee",
@@ -1111,7 +1111,7 @@
     "category": "Drinks",
     "sub_category": "Sıcak İçecekler",
     "name": "Cafe Latte White Mocha",
-    "short_description": "Beyaz çikolata ile tatlandırılmış, yumuşak içimli latte.",
+    "short_description": "Beyaz çikolatalı latte.",
     "currency": "TL",
     "tags": [
       "coffee",
@@ -1148,7 +1148,7 @@
     "category": "Drinks",
     "sub_category": "Sıcak İçecekler",
     "name": "Cappuccino",
-    "short_description": "Yoğun espresso ve süt köpüğüyle dengelenmiş klasik cappuccino.",
+    "short_description": "Yoğun espresso ve süt; klasik cappuccino.",
     "currency": "TL",
     "tags": [
       "coffee",
@@ -1184,7 +1184,7 @@
     "category": "Drinks",
     "sub_category": "Sıcak İçecekler",
     "name": "Chai Tea Latte",
-    "short_description": "Baharat karışımı ve sütle hazırlanan sıcak, aromatik içecek.",
+    "short_description": "Baharat karışımı ve süt ile hazırlanan sıcak içecek.",
     "price": 175,
     "currency": "TL",
     "tags": [
@@ -1262,7 +1262,7 @@
     "category": "Drinks",
     "sub_category": "Sıcak İçecekler",
     "name": "Espresso Mochiato",
-    "short_description": "Espresso üzerine az miktarda süt köpüğü; dengeli yoğunlukta.",
+    "short_description": "Espresso üzerine az miktarda süt köpüğü; klasik machiato.",
     "currency": "TL",
     "tags": [
       "coffee",
@@ -1393,7 +1393,7 @@
     "category": "Drinks",
     "sub_category": "Sıcak İçecekler",
     "name": "Salep",
-    "short_description": "Salep ve sütle hazırlanan, yoğun aromalı sıcak içecek.",
+    "short_description": "Salep ve sütle hazırlanan, klasik salep.",
     "price": 150,
     "currency": "TL",
     "tags": [
@@ -1413,7 +1413,7 @@
     "category": "Drinks",
     "sub_category": "Sıcak İçecekler",
     "name": "Sıcak Çikolata",
-    "short_description": "Kakao ve sütle hazırlanmış, yoğun ve kremamsı sıcak çikolata.",
+    "short_description": "Kakao ve sütle hazırlanmış, klasik sıcak çikolata.",
     "price": 165,
     "currency": "TL",
     "tags": [
@@ -1434,7 +1434,7 @@
     "category": "Drinks",
     "sub_category": "Sıcak İçecekler",
     "name": "Türk Kahvesi",
-    "short_description": "Klasik Türk kahvesi; yoğun köpük ve dengeli kavrulmuş tat profili.",
+    "short_description": "Klasik Türk kahvesi; yoğun köpüklü, dengeli.",
     "currency": "TL",
     "tags": [
       "coffee",
@@ -1468,7 +1468,7 @@
     "category": "Drinks",
     "sub_category": "Sıcak İçecekler",
     "name": "Çay",
-    "short_description": "Yoğun demlenmiş siyah çay; sıcak, sade ve geleneksel.",
+    "short_description": "Geleneksel siyah çay.",
     "currency": "TL",
     "tags": [
       "tea",
@@ -1502,7 +1502,7 @@
     "category": "Starters",
     "sub_category": "Sandviçler & Simitler",
     "name": "3 Peynirli Zeytinli Simit",
-    "short_description": "Üç peynir karışımı ve zeytinle zenginleştirilmiş taze simit.",
+    "short_description": "Üç peynir karışımı ve zeytinle hazırlanan taze simit.",
     "price": 175,
     "currency": "TL",
     "tags": [
@@ -1525,7 +1525,7 @@
     "category": "Starters",
     "sub_category": "Sandviçler & Simitler",
     "name": "4 Peynirli Bagel",
-    "short_description": "Dört farklı peynirle hazırlanan, taze dolgun bagel.",
+    "short_description": "Dört farklı peynirle hazırlanan taze dolgun bagel.",
     "price": 200,
     "currency": "TL",
     "tags": [
@@ -1613,7 +1613,7 @@
     "category": "Starters",
     "sub_category": "Sandviçler & Simitler",
     "name": "Tahıllı Peynirli Panini",
-    "short_description": "Tahıllı ekmek arasında peynir; doyurucu ve dengeli.",
+    "short_description": "Tahıllı panini arasında peynir.",
     "price": 190,
     "currency": "TL",
     "tags": [
@@ -1631,5 +1631,4 @@
     "available": true,
     "image_url": "/menu-images/bakery-tahilli-peynirli-panini.webp"
   }
-
 ]
