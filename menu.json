@@ -840,7 +840,7 @@
     "category": "Drinks",
     "sub_category": "Soğuk İçecekler",
     "name": "Soda",
-    "short_description": "Naden suyundan elde edilmiş, zengin içerikli gazlı içecek.",
+    "short_description": "",
     "price": 65,
     "currency": "TL",
     "allergens": [],
@@ -857,7 +857,7 @@
     "category": "Drinks",
     "sub_category": "Soğuk İçecekler",
     "name": "Su",
-    "short_description": "Dengeli ve ferahlatıcı.",
+    "short_description": "",
     "price": 45,
     "currency": "TL",
     "allergens": [],
@@ -1631,4 +1631,5 @@
     "available": true,
     "image_url": "/menu-images/bakery-tahilli-peynirli-panini.webp"
   }
+
 ]
