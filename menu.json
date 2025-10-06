@@ -874,7 +874,7 @@
     "category": "Drinks",
     "sub_category": "Sıcak İçecekler",
     "name": "Americano",
-    "short_description": "Yoğun espressoyu ve sıcak su ile hazırlanan sade kahve.",
+    "short_description": "Yoğun espresso ve sıcak su ile hazırlanan sade kahve.",
     "currency": "TL",
     "tags": [
       "coffee",
@@ -1632,3 +1632,4 @@
     "image_url": "/menu-images/bakery-tahilli-peynirli-panini.webp"
   }
 ]
+
