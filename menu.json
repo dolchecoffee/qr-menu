@@ -4,7 +4,7 @@
     "category": "Desserts",
     "sub_category": "Specials",
     "name": "Orman Meyveli Pasta",
-    "short_description": "Sütlü çikolata, çilek ve frambuaz ile hazırlanan yoğun tatlı.",
+    "short_description": "Orman meyveli pasta.",
     "price": 270,
     "currency": "TL",
     "allergens": [
@@ -18,7 +18,7 @@
       "vegetarian"
     ],
     "available": true,
-    "image_url": ""
+    "image_url": "/menu-images/tatlilar-orman-meyveli-pasta.webp"
   },
   {
     "id": "tatlilar-balli-cevizli-mardenka",
@@ -108,7 +108,7 @@
       "contains-gluten"
     ],
     "available": true,
-    "image_url": ""
+    "image_url": "/menu-images/tatlilar-limonlu-cheesecake.webp"
   },
   {
     "id": "tatlilar-lotus-cheesecake",
@@ -256,48 +256,6 @@
     ],
     "available": true,
     "image_url": ""
-  },
-  {
-    "id": "matchalar-cacao-matcha",
-    "category": "Drinks",
-    "sub_category": "Matchalar",
-    "name": "Cacao Matcha",
-    "short_description": "Kakao ve matcha karışımı; yumuşak içimli bir alternatif.",
-    "currency": "TL",
-    "tags": [
-      "matcha",
-      "iced",
-      "caffeinated",
-      "contains-dairy",
-      "vegetarian"
-    ],
-    "allergens": [
-      "dairy",
-      "caffeine"
-    ],
-    "image_url": "",
-    "variants": [
-      {
-        "id": "sicak",
-        "label": "Sıcak",
-        "price": 225.0,
-        "available": true,
-        "short_description": "Zengin kakao ile harmanlanmış sıcak matcha; dengeli, hafif bitter bir tat sunar.",
-        "add_tags": [
-          "hot"
-        ],
-        "remove_tags": [
-          "iced"
-        ]
-      },
-      {
-        "id": "soguk",
-        "label": "Soğuk",
-        "price": 235.0,
-        "available": true,
-        "short_description": "Soğuk servis edilen kakao ve matcha karışımı; ferahlatıcı, yumuşak içimli bir alternatif."
-      }
-    ]
   },
   {
     "id": "matchalar-dolche-matcha-vanilya-karamel",
@@ -468,25 +426,46 @@
     ]
   },
   {
-    "id": "soft-icecekler-chocolate-chip-frappucino",
+    "id": "matchalar-cacao-matcha",
     "category": "Drinks",
-    "sub_category": "Soft İçecekler",
-    "name": "Chocolate Chip Frappucino",
-    "short_description": "Çikolata parçacıklarıyla hazırlanan, süt bazlı frappucino.",
-    "price": 195,
+    "sub_category": "Matchalar",
+    "name": "Cacao Matcha",
+    "short_description": "Kakao ve matcha karışımı; yumuşak içimli bir alternatif.",
     "currency": "TL",
-    "allergens": [
-      "dairy",
-      "soy"
-    ],
     "tags": [
-      "soft-drink",
+      "matcha",
       "iced",
+      "caffeinated",
       "contains-dairy",
       "vegetarian"
     ],
-    "available": true,
-    "image_url": "/menu-images/soft-icecekler-chocolate-chip-frappucino.webp"
+    "allergens": [
+      "dairy",
+      "caffeine"
+    ],
+    "image_url": "",
+    "variants": [
+      {
+        "id": "sicak",
+        "label": "Sıcak",
+        "price": 225.0,
+        "available": true,
+        "short_description": "Zengin kakao ile harmanlanmış sıcak matcha; dengeli, hafif bitter bir tat sunar.",
+        "add_tags": [
+          "hot"
+        ],
+        "remove_tags": [
+          "iced"
+        ]
+      },
+      {
+        "id": "soguk",
+        "label": "Soğuk",
+        "price": 235.0,
+        "available": true,
+        "short_description": "Soğuk servis edilen kakao ve matcha karışımı; ferahlatıcı, yumuşak içimli bir alternatif."
+      }
+    ]
   },
   {
     "id": "soft-icecekler-dolche-ice-tea",
@@ -543,6 +522,23 @@
     "image_url": "/menu-images/soft-icecekler-frozen-cilek-kavun-seftali-karpuz.webp"
   },
   {
+    "id": "soft-icecekler-summer-lime-frozen",
+    "category": "Drinks",
+    "sub_category": "Soft İçecekler",
+    "name": "Summer Lime Frozen",
+    "short_description": "Lime ile hazırlanmış frozen.",
+    "price": 180,
+    "currency": "TL",
+    "allergens": [],
+    "tags": [
+      "soft-drink",
+      "iced",
+      "vegan"
+    ],
+    "available": true,
+    "image_url": "/menu-images/soft-icecekler-summer-lime-frozen.webp"
+  },
+  {
     "id": "soft-icecekler-hibiskus-lime",
     "category": "Drinks",
     "sub_category": "Soft İçecekler",
@@ -597,6 +593,23 @@
     "image_url": "/menu-images/soft-icecekler-limonata.webp"
   },
   {
+    "id": "soft-icecekler-cilekli-limonata",
+    "category": "Drinks",
+    "sub_category": "Soft İçecekler",
+    "name": "Çilekli Limonata",
+    "short_description": "Çilek aromalı ev yapımı limonata.",
+    "price": 170,
+    "currency": "TL",
+    "allergens": [],
+    "tags": [
+      "soft-drink",
+      "iced",
+      "vegan"
+    ],
+    "available": true,
+    "image_url": "/menu-images/soft-icecekler-cilekli-limonata.webp"
+  },
+  {
     "id": "soft-icecekler-milkshake",
     "category": "Drinks",
     "sub_category": "Soft İçecekler",
@@ -615,6 +628,27 @@
     ],
     "available": true,
     "image_url": "/menu-images/soft-icecekler-milkshake.webp"
+  },
+  {
+    "id": "soft-icecekler-chocolate-chip-frappucino",
+    "category": "Drinks",
+    "sub_category": "Soft İçecekler",
+    "name": "Chocolate Chip Frappucino",
+    "short_description": "Çikolata parçacıklarıyla hazırlanan, süt bazlı frappucino.",
+    "price": 195,
+    "currency": "TL",
+    "allergens": [
+      "dairy",
+      "soy"
+    ],
+    "tags": [
+      "soft-drink",
+      "iced",
+      "contains-dairy",
+      "vegetarian"
+    ],
+    "available": true,
+    "image_url": "/menu-images/soft-icecekler-chocolate-chip-frappucino.webp"
   },
   {
     "id": "soft-icecekler-protein-smoothie",
@@ -636,79 +670,6 @@
     ],
     "available": true,
     "image_url": "/menu-images/soft-icecekler-protein-smoothie.webp"
-  },
-  {
-    "id": "soft-icecekler-summer-lime-frozen",
-    "category": "Drinks",
-    "sub_category": "Soft İçecekler",
-    "name": "Summer Lime Frozen",
-    "short_description": "Lime ile hazırlanmış frozen.",
-    "price": 180,
-    "currency": "TL",
-    "allergens": [],
-    "tags": [
-      "soft-drink",
-      "iced",
-      "vegan"
-    ],
-    "available": true,
-    "image_url": "/menu-images/soft-icecekler-summer-lime-frozen.webp"
-  },
-  {
-    "id": "soft-icecekler-cilekli-limonata",
-    "category": "Drinks",
-    "sub_category": "Soft İçecekler",
-    "name": "Çilekli Limonata",
-    "short_description": "Çilek aromalı ev yapımı limonata.",
-    "price": 170,
-    "currency": "TL",
-    "allergens": [],
-    "tags": [
-      "soft-drink",
-      "iced",
-      "vegan"
-    ],
-    "available": true,
-    "image_url": "/menu-images/soft-icecekler-cilekli-limonata.webp"
-  },
-  {
-    "id": "soguk-icecekler-affagato",
-    "category": "Drinks",
-    "sub_category": "Soğuk İçecekler",
-    "name": "Affagato",
-    "short_description": "Espresso ve dondurma ile hazırlanır.",
-    "price": 185,
-    "currency": "TL",
-    "allergens": [
-      "dairy",
-      "caffeine"
-    ],
-    "tags": [
-      "coffee",
-      "iced",
-      "caffeinated",
-      "contains-dairy",
-      "vegetarian"
-    ],
-    "available": true,
-    "image_url": "/menu-images/soguk-icecekler-affagato.webp"
-  },
-  {
-    "id": "soguk-icecekler-churchill",
-    "category": "Drinks",
-    "sub_category": "Soğuk İçecekler",
-    "name": "Churchill",
-    "short_description": "Limon, soda ve tuzla hazırlanan klasik, ferahlatıcı içecek.",
-    "price": 100,
-    "currency": "TL",
-    "allergens": [],
-    "tags": [
-      "soft-drink",
-      "iced",
-      "vegan"
-    ],
-    "available": true,
-    "image_url": ""
   },
   {
     "id": "soguk-icecekler-ice-americano",
@@ -819,6 +780,28 @@
     "image_url": "/menu-images/soguk-icecekler-ice-latte.webp"
   },
   {
+    "id": "soguk-icecekler-affagato",
+    "category": "Drinks",
+    "sub_category": "Soğuk İçecekler",
+    "name": "Affagato",
+    "short_description": "Espresso ve dondurma ile hazırlanır.",
+    "price": 185,
+    "currency": "TL",
+    "allergens": [
+      "dairy",
+      "caffeine"
+    ],
+    "tags": [
+      "coffee",
+      "iced",
+      "caffeinated",
+      "contains-dairy",
+      "vegetarian"
+    ],
+    "available": true,
+    "image_url": "/menu-images/soguk-icecekler-affagato.webp"
+  },
+  {
     "id": "soguk-icecekler-soda",
     "category": "Drinks",
     "sub_category": "Soğuk İçecekler",
@@ -853,6 +836,23 @@
     "image_url": "/menu-images/soguk-icecekler-su.webp"
   },
   {
+    "id": "soguk-icecekler-churchill",
+    "category": "Drinks",
+    "sub_category": "Soğuk İçecekler",
+    "name": "Churchill",
+    "short_description": "Limon, soda ve tuzla hazırlanan klasik, ferahlatıcı içecek.",
+    "price": 100,
+    "currency": "TL",
+    "allergens": [],
+    "tags": [
+      "soft-drink",
+      "iced",
+      "vegan"
+    ],
+    "available": true,
+    "image_url": ""
+  },
+  {
     "id": "sicak-icecekler-americano",
     "category": "Drinks",
     "sub_category": "Sıcak İçecekler",
@@ -869,44 +869,6 @@
     ],
     "available": true,
     "image_url": "/menu-images/sicak-icecekler-americano-orta.webp"
-  },
-  {
-    "id": "sicak-icecekler-babycino-orta",
-    "category": "Drinks",
-    "sub_category": "Sıcak İçecekler",
-    "name": "Babycino",
-    "short_description": "Süt köpüğünden yapılan, kafeinsiz sıcak içecek.",
-    "price": 120,
-    "currency": "TL",
-    "tags": [
-      "hot",
-      "contains-dairy",
-      "vegetarian",
-      "caffeine-free"
-    ],
-    "allergens": [
-      "dairy"
-    ],
-    "available": true,
-    "image_url": "/menu-images/sicak-icecekler-babycino-orta.webp"
-  },
-  {
-    "id": "sicak-icecekler-bitkisel-sut-orta",
-    "category": "Drinks",
-    "sub_category": "Sıcak İçecekler",
-    "name": "Bitkisel Süt",
-    "short_description": "Bitkisel bazlı süt.",
-    "price": 40,
-    "currency": "TL",
-    "tags": [
-      "hot",
-      "vegan"
-    ],
-    "allergens": [
-      "soy"
-    ],
-    "available": true,
-    "image_url": "/menu-images/sicak-icecekler-bitkisel-sut-orta.webp"
   },
   {
     "id": "sicak-icecekler-cafe-latte",
@@ -1316,6 +1278,44 @@
       }
     ]
   },
+    {
+    "id": "sicak-icecekler-babycino-orta",
+    "category": "Drinks",
+    "sub_category": "Sıcak İçecekler",
+    "name": "Babycino",
+    "short_description": "Süt köpüğünden yapılan, kafeinsiz sıcak içecek.",
+    "price": 120,
+    "currency": "TL",
+    "tags": [
+      "hot",
+      "contains-dairy",
+      "vegetarian",
+      "caffeine-free"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "available": true,
+    "image_url": "/menu-images/sicak-icecekler-babycino-orta.webp"
+  },
+  {
+    "id": "sicak-icecekler-bitkisel-sut-orta",
+    "category": "Drinks",
+    "sub_category": "Sıcak İçecekler",
+    "name": "Bitkisel Süt",
+    "short_description": "Bitkisel bazlı süt.",
+    "price": 40,
+    "currency": "TL",
+    "tags": [
+      "hot",
+      "vegan"
+    ],
+    "allergens": [
+      "soy"
+    ],
+    "available": true,
+    "image_url": "/menu-images/sicak-icecekler-bitkisel-sut-orta.webp"
+  },
   {
     "id": "bakery-3-peynirli-zeytinli-simit",
     "category": "Starters",
@@ -1389,7 +1389,7 @@
     "category": "Starters",
     "sub_category": "Tostlar",
     "name": "Ayvalık Tost",
-    "short_description": "Sucuk, salam, kaşar ve turşuyla hazırlanan klasik Ayvalık tostu.",
+    "short_description": "Sucuk, salam ve kaşar ile hazırlanan klasik Ayvalık tostu.",
     "price": 180,
     "currency": "TL",
     "tags": [
@@ -1403,7 +1403,7 @@
       "gluten"
     ],
     "available": true,
-    "image_url": ""
+    "image_url": "/menu-images/bakery-ayvalik-tostu.webp"
   },
   {
     "id": "bakery-kasarli-tost",
@@ -1431,23 +1431,20 @@
     "id": "bakery-dana-jambonlu-sandvic",
     "category": "Starters",
     "sub_category": "Sandviçler & Simitler",
-    "name": "Tahıllı Dana Jambonlu Sandviç",
-    "short_description": "Tahıllı panini arasında peynir.",
+    "name": "Dana Jambonlu Sandviç",
+    "short_description": "Dana jambonlu sandviç.",
     "price": 250,
     "currency": "TL",
     "tags": [
       "bakery",
       "starter",
       "contains-dairy",
-      "contains-gluten",
-      "vegetarian" 
+      "contains-gluten"
     ],
     "allergens": [
       "dairy",
-      "gluten",
-      "sesame"
-    ],  
+      "gluten"    ],  
     "available": true,
-    "image_url": "/menu-images/bakery-tahilli-peynirli-panini.webp"
+    "image_url": "/menu-images/bakery-dana-jambonlu-sandvic.webp"
   }
 ]
